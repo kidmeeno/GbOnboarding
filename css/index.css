@@ -14,13 +14,13 @@ body{
 }
 footer{
     /* position: -webkit-absolute; 
-    position: absolute;  */
-    bottom: 0;
+    position: absolute; 
+    bottom: 0; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 88%; */
-    /* margin-bottom: 10px; */
+    /* width: 88%;
+    margin-bottom: 10px; */
 }
 .text_section{
     text-align: center;
@@ -61,6 +61,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* margin-bottom: 20vh; */
 }
 button{
     display: block;
@@ -89,7 +90,9 @@ footer :nth-child(3){
 }
 @media(max-width:767px){
     .mobile_wrapper{
-        display: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     body{
         padding: 15px 15px 0 15px;
