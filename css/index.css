@@ -5,22 +5,22 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .destop_wrapper{
-    height: 100vh;
+    height: 99vh;
     text-align: center;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 footer{
-    /* position: -webkit-absolute; 
-    position: absolute; 
-    bottom: 0; */
+    position: -webkit-fixed; 
+    position: fixed; 
+    bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 88%;
-    margin-bottom: 10px; */
+    width: 88%;
+    margin-bottom: 10px;
 }
 .text_section{
     text-align: center;
@@ -61,7 +61,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* margin-bottom: 20vh; */
+    margin-bottom: 4rem;
 }
 button{
     display: block;
@@ -90,9 +90,7 @@ footer :nth-child(3){
 }
 @media(max-width:767px){
     .mobile_wrapper{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        display: unset;
     }
     body{
         padding: 15px 15px 0 15px;
