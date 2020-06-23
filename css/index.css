@@ -13,14 +13,14 @@ body{
     justify-content: center;
 }
 footer{
-    position: -webkit-absolute; 
-    position: absolute; 
+    /* position: -webkit-absolute; 
+    position: absolute;  */
     bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 88%;
-    margin-bottom: 10px;
+    /* width: 88%; */
+    /* margin-bottom: 10px; */
 }
 .text_section{
     text-align: center;
