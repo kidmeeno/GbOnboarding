@@ -8,6 +8,9 @@ body{
     height: 100vh;
     text-align: center;
     width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer{
     position: -webkit-fixed; 
