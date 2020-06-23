@@ -13,7 +13,7 @@ body{
     justify-content: center;
 }
 footer{
-    position: -webkit-fixed; 
+    position: -webkit-absolute; 
     position: absolute; 
     bottom: 0;
     display: flex;
@@ -34,6 +34,7 @@ footer{
 .active_btn{
     background-color: #424ea6;
     color: #ffffff;
+    border: none;
 }
 .dot {
     height: 7px;
@@ -79,9 +80,7 @@ button{
 }
 button:focus{
     outline: none;
-    /* border: none; */
 }
-/* button:active{} */
 footer :nth-child(1){
     color: #8d959e;
 }
